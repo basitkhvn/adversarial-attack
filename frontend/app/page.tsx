@@ -32,7 +32,7 @@ export default function Home() {
 
     try {
       // Connect to Python Backend
-      const response = await fetch("http://3.107.199.52:8000/attack", {
+      const response = await fetch("https://chicly-unhesitative-jamila.ngrok-free.dev/attack", {
         method: "POST",
         body: formData,
       });
