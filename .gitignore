@@ -1,0 +1,14 @@
+# Python Data
+data/
+mnist_model.pth
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.env
+
+# Node.js (Frontend)
+node_modules/
+.next/
+.DS_Store
